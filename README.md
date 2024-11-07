@@ -1,3 +1,33 @@
+# Open Source Christian Projects
+
+A directory of Open Source Christian Projects
+
+## Submitting new projects
+
+Add the new project to the `src/data.ts` file with the following structure:
+
+```javascript
+{
+  name: "Project Name",
+  link: "https://github.com/…",
+  description: "…",
+  categories: ["…", "…"],
+},
+```
+
+## Local development
+
+```bash
+# Set node version
+nvm use
+
+# Install node packages
+npm install
+
+# Run development build process and start local server
+npm run dev
+```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
